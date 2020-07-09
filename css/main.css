@@ -116,18 +116,17 @@ header{
 
     }
 
-    nav {
+    header nav {
       display: flex;
       justify-content: space-around;
       align-items: center;
       flex-flow: row wrap;
     }
 
-      nav ul {
+      header nav ul {
         display: flex;
         justify-content: space-around;
-        align-items: center;
-        flex-flow: row wrap;
+        
       }
 
         nav ul li{
@@ -135,7 +134,7 @@ header{
         }
 
 
-/***************************Main Section Sytles******************************/
+/***************************Mobile Styles - Homepage - Main Section Sytles******************************/
 
 main {
 
@@ -144,12 +143,13 @@ main {
   main .hero-section{
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-flow: row wrap;
   }
 
     main .content-wrapper{
-
+      display: flex;
+      justify-content: center;
+      flex-flow: row wrap;
     }
 
   
@@ -172,7 +172,6 @@ main {
   main section .features {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-flow: row wrap;
   }
 
@@ -201,7 +200,6 @@ main {
   .reviews {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-flow: row wrap;
   }
 
@@ -285,12 +283,18 @@ footer {
         flex-flow: row wrap;
       }
 
-        .social-icons {
+        footer .social-icons {
           display: flex;
           justify-content: center;
           align-items: center;
           flex-flow: row wrap;
         }
+
+          footer .social-icons p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
 
   .copyright {
 
