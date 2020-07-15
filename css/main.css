@@ -102,10 +102,12 @@ footer {
 /**************************Header Styles**************************************/
 
 header{
-
+  width: 100%;
+  padding: 15px 0;
 }
 
   header .content-wrapper {
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,10 +115,11 @@ header{
   }
 
     .header-divider {
-
+      width: 90%;
     }
 
     header nav {
+      width: 60%;
       display: flex;
       justify-content: space-around;
       align-items: center;
@@ -124,6 +127,7 @@ header{
     }
 
       header nav ul {
+        width: 60%;
         display: flex;
         justify-content: space-around;
         
@@ -147,6 +151,7 @@ main {
   }
 
     main .content-wrapper{
+      width: 90%;
       display: flex;
       justify-content: center;
       flex-flow: row wrap;
@@ -154,6 +159,7 @@ main {
 
   
   main aside .content-wrapper {
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -176,6 +182,7 @@ main {
   }
 
     main .features .content-wrapper {
+      width: 90%;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -196,6 +203,10 @@ main {
       .features-item-description {
 
       }
+
+    .features article{
+      width: 55%;
+    }
   
   .reviews {
     display: flex;
@@ -204,11 +215,16 @@ main {
   }
 
     .reviews .content-wrapper{
+      width: 90%;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-flow: row wrap;
     }
+
+      .reviews h3{
+        width: 90%;
+      }
 
       .reviews-content {
 
@@ -222,6 +238,7 @@ main {
   }
 
     .mission .content-wrapper {
+      width: 90%;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -236,6 +253,7 @@ main {
   }
 
     #faq main .content-wrapper {
+      width: 90%;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -251,6 +269,7 @@ main {
   }
 
     .contact-section .content-wrapper{
+      width: 90%;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -265,7 +284,8 @@ footer {
 }
 
   footer .content-wrapper {
-
+    width: 55%;
+    margin: 50px 0;
   }
 
     .footer-content {
