@@ -97,23 +97,30 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   line-height: 1.286em;
+  color: #e2e3ed;
 }
  
 ul, 
 ol {
   font-size: 1.125em;
   font-weight: 700;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
  
 a {
   color: #e2e3ed;
   text-decoration: none;
 }
+
+h1{
+  font-size: 2.25em;
+  line-height: 1.5em;
+}
  
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
+  line-height: 1.25em;
 }
  
 h3 {
@@ -162,6 +169,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #202322;
 
 }
 
@@ -212,6 +220,7 @@ footer p {
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
+  text-align: center;
 }
 
 footer .contact {
@@ -243,6 +252,7 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  
 }
 
 /* Aside */
@@ -252,6 +262,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 /* Features */
@@ -288,6 +299,7 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .reviews h2 {
@@ -299,7 +311,9 @@ aside {
   margin: 20px 0;
 }
 
-
+.contact-content{
+  background-color: #202322;
+}
 
 
 /*************************About Page****************************/
@@ -434,6 +448,37 @@ aside {
 .clearfix::after {
   clear: both;
 }
+
+/******************Contact Form Input Styles****************************/
+
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
