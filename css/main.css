@@ -255,6 +255,10 @@ footer .social-icons {
   align-items: center;
 }
 
+footer .social-icons i{
+  font-size: 3em;
+}
+
 footer .social-icons p {
   display: flex;
   justify-content: center;
